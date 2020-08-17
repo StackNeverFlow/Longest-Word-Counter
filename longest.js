@@ -1,5 +1,5 @@
 // Please enter the name of the file you want to use as your wordlist
-var wordlist = "words.txt"
+var wordlist = "words.txt";
 
 var fs = require("fs");
 var words = fs.readFileSync(wordlist).toString();
